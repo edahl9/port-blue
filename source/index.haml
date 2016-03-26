@@ -26,16 +26,20 @@ title: Welcome to Middleman
 .footer
   %p Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor.
 
-  .message-center
+  .message-center#msg-center
+
     .message-container
-      .message-header
+      
+      .message-header#msg-toggle
         Ipsum Purus
+        .message-bubble
+          %i.fa.fa-comment
       .message-view
         .initial
           .initial-name Ipsum Purus
           Malesuada Fusce Cursus Cras Condimentum
-        .error
-          Sem Egestas Fusce Pellentesque Tristique
+        .error.hide
+          Error: No credit card on file.
       .message-input
         %input 
         %button Send
