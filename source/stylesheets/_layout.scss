@@ -4,6 +4,11 @@ $blue-3: #2764B3;
 $blue-4: #2D72CC;
 $blue-5: #3381E8;
 $blue-6: #D9E9FF;
+
+a, a:hover, a:active {
+    color:$blue-5;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -23,19 +28,21 @@ h1 {
     font-size: 72px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
-    margin: 0 0 20px 0;
+    margin:0;
+    //margin: 0 0 20px 0;
     padding: 0;
     line-height: 1;
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
     padding: 10px 0;
+
 }
 
 .header {
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -103,12 +110,13 @@ section {
     }
     .quote {
         width: 280px;
-        margin: 100px 20px;
+        margin: 120px 20px 0 20px;
+        //margin: 100px 20px;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 28px;
     }
     .quote-name {
-        font-size: 14px;
+        font-size: 18px;
         margin: 10px 0;
     }
 }
@@ -120,7 +128,7 @@ section {
 }
 
 .footer {
-    padding: 40px 0;
+    padding: 40px 0 60px 0;
     text-align: center;
 }
 
@@ -210,3 +218,5 @@ section {
         color: #ffffff;
     }
 }
+
+@import "media-query";
