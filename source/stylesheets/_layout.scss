@@ -66,6 +66,10 @@ h3 {
     background-image: url("../images/sec-3.jpg");
     background-repeat: no-repeat;
 }
+#sec4::after {
+    background-image: url("../images/sec-4.jpg");
+    background-repeat: no-repeat;
+}
 
 section {
     height: 400px;
@@ -195,11 +199,11 @@ section {
     border-top: 1px solid #999999;
     text-align: left;
     input {
-        width: 174px;
+        width: 164px;
         height: 32px;
         display: inline-block;
         font-size: 14px;
-        padding: 0 5px;
+        padding: 0 10px;
         float: left;
         border: none;
         outline: none;
