@@ -1,5 +1,17 @@
 @media screen and (max-width: 480px) {
     h1 {
-        font-size:42px;
+        font-size: 42px;
+    }
+    #sec1::after {
+        background-position: 40% 0;
+    }
+    #sec2::after {
+        background-position: 55% 0;
+    }
+    #sec3::after {
+        background-position: 30% 0;
+    }
+    #sec4::after {
+        background-position: 50% -150px;
     }
 }
